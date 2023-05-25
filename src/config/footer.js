@@ -2,8 +2,8 @@ export const footer = {
   sectionOne: {
     logo: 'Hello',
     subtitle:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere tincidunt tortor porta eu, facilisi ut.',
-    copyRights: 'Copyright © 2022 Abdul Basit',
+      'Nous sommes Serema, une plateforme révolutionnaire qui permet à toutes les entreprises de distribuer leurs produits et services sur l\'ensemble du territoire sénégalais.',
+    copyRights: 'Copyright © 2023 Serema',
   },
   sectionTwo: {
     title: 'Company',

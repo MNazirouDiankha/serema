@@ -27,7 +27,7 @@ const Form = ({ handleAddedInList }) => {
     onSubmitForm()
   }
 
-  const { name, email } = user
+  const { name, email, phone,laste_name } = user
 
   return (
     <FormStyle onSubmit={submitForm}>
@@ -39,6 +39,7 @@ const Form = ({ handleAddedInList }) => {
         type="text"
         placeholder="Your Name"
       />
+
       <BasicInput
         label="Email"
         name="email"
@@ -48,6 +49,16 @@ const Form = ({ handleAddedInList }) => {
         placeholder="Your Email"
         required
       />
+
+      <BasicInput
+        label="phone"
+        name="phone"
+        value={phone}
+        onChange={onChangeInput}
+        type="phone"
+        placeholder="Your number"
+        required
+      />
       <Box mt={50} flxRight smNone>
         <TextStyle>
           <Star />
@@ -55,7 +66,7 @@ const Form = ({ handleAddedInList }) => {
         </TextStyle>
       </Box>
       <Box mt={40} flxRight>
-        <Button title="Join the waitlist" />
+        <Button title="Laissez-nous votre contact" />
       </Box>
     </FormStyle>
   )

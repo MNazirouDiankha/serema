@@ -21,8 +21,8 @@ const ContentWrapper = styled.div`
   }
 `
 
-const WelcomeMessage = styled.h4`
-  font-size: 72px;
+const WelcomeMessage = styled.h1`
+  font-size: 70px;
   font-weight: 900;
   line-height: 1.1;
   color: ${({ theme }) => theme.colors.text};

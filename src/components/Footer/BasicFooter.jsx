@@ -2,7 +2,7 @@ import { footer } from 'config/footer'
 import React from 'react'
 import styled from 'styled-components'
 import { device } from 'styles/BreakPoints'
-import { ReactComponent as Logo } from 'assets/images/Logo.svg'
+import { ReactComponent as Logo } from 'assets/images/serema-logo.svg'
 import { Container, SmallDevicesHidden } from 'styles/Global'
 
 const FooterWrapper = styled.section`
@@ -71,7 +71,7 @@ const TagStyle = styled.span`
 `
 
 const FooterLogo = styled.div`
-  width: 200px;
+  width: 70px;
   svg {
     width: 100%;
     height: 100%;
