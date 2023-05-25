@@ -49,7 +49,6 @@ const HomeSVGStyle = styled.div`
 function HomeWrapper() {
   return (
     <HomeWrapperStyle>
-      <CollapseNavbar />
       <HomeSections>
         <WelcomeSection message="Vos SERVICES à la portée de TOUS" />
         <FormSection />
