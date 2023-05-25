@@ -1,5 +1,5 @@
 import { ReactComponent as MenuIcon } from 'assets/icons/hamburger.svg'
-import Logo from 'assets/images/logo.png'
+import Logo from 'assets/images/serema-logo.svg'
 import { useState } from 'react'
 import styled from 'styled-components'
 import { SmallDeviceShow } from 'styles/Global'
@@ -60,17 +60,7 @@ const CollapseNavbar = () => {
         <LogoWrapper>
          <img src={Logo} alt=''/>
         </LogoWrapper>
-        <MenuIconWrapper>
-          <MenuIcon onClick={handleMenuShow} />
-        </MenuIconWrapper>
       </CollapseNavbarStyle>
-      {showMenu && (
-        <NavMenu>
-          <ul>
-            <li>Home</li>
-          </ul>
-        </NavMenu>
-      )}
     </MenuWrapper>
   )
 }
