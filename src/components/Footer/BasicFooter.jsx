@@ -9,7 +9,7 @@ const FooterWrapper = styled.section`
   display: grid;
   grid-template-columns: 40fr 30fr 30fr;
   grid-column-gap: 40px;
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 50px;
   justify-items: end;
 

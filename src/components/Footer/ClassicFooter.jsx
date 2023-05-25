@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { Box, Container } from 'styles/Global'
 
 const FooterStyle = styled.footer`
-  margin-top: 80px;
+  margin-top: 40px;
 `
 
 const FooterInfo = styled.div`

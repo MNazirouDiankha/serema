@@ -1,4 +1,4 @@
-import { ReactComponent as Logo } from 'assets/images/Logo.svg'
+import { ReactComponent as Logo } from 'assets/images/serema-logo.svg'
 import Contact from 'components/Contact'
 import React from 'react'
 import styled from 'styled-components'
@@ -26,7 +26,7 @@ const WelcomeMessage = styled.h1`
   font-weight: 900;
   line-height: 1.1;
   color: ${({ theme }) => theme.colors.text};
-  margin-top: 14vh;
+  margin-top: 10vh;
 
   @media ${device.md} {
     font-size: 60px;
@@ -59,7 +59,7 @@ function WelcomeSection({ message }) {
           <Logo />
         </LogoWrapper>
         <WelcomeMessage>{message}</WelcomeMessage>
-        <Box mt={50}>
+        <Box mt={10}>
           <Contact />
         </Box>
       </ContentWrapper>

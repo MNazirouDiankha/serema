@@ -16,11 +16,11 @@ function Contact() {
     <>
       <ContactStyle>
         <Mail />
-        <span>person.name@gmail.com</span>
+        <span>seremagroupe@gmail.com</span>
       </ContactStyle>
       <ContactStyle>
         <Phone />
-        <span>+1 267-618-1593</span>
+        <span>+221 77 098 95 97</span>
       </ContactStyle>
     </>
   )

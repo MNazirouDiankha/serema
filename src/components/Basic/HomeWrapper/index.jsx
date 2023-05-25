@@ -54,9 +54,6 @@ function HomeWrapper() {
         <WelcomeSection message="Vos SERVICES à la portée de TOUS" />
         <FormSection />
       </HomeSections>
-      <HomeSVGStyle>
-        <HomeSVG />
-      </HomeSVGStyle>
     </HomeWrapperStyle>
   )
 }
