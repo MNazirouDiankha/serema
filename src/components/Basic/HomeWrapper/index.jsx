@@ -51,7 +51,7 @@ function HomeWrapper() {
     <HomeWrapperStyle>
       <CollapseNavbar />
       <HomeSections>
-        <WelcomeSection message="Votre vie n'a pas de prix" />
+        <WelcomeSection message="Vos SERVICES à la portée de TOUS" />
         <FormSection />
       </HomeSections>
       <HomeSVGStyle>
